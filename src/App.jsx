@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import ProjectsPreview from './components/ProjectsPreview'
-import BlogPreview from './components/BlogPreview'
+import ProjectsCarousel from './components/ProjectsCarousel'
+import BlogCarousel from './components/BlogCarousel'
 import Footer from './components/Footer'
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <ProjectsPreview />
-        <BlogPreview />
+        <ProjectsCarousel />
+        <BlogCarousel />
       </main>
       <Footer />
     </div>
